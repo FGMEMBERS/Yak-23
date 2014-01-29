@@ -4,6 +4,10 @@
 
   <title>Yakovlev Yak 23</title>
   <key>
+    <name>}</name>
+    <desc>Start engine</desc>
+  </key>
+  <key>
     <name>d</name>
     <desc>Open/Close canopy</desc>
   </key>

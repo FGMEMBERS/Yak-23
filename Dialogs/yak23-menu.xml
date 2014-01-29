@@ -7,10 +7,31 @@
       <label>Yak 23</label>
       <enabled type="bool">true</enabled>
       <item>
+        <label>Autostart</label>
+        <binding>
+          <command>nasal</command>
+          <script>engines.autostart();</script>
+        </binding>
+      </item>
+      <item>
         <label>Select Livery</label>
         <binding>
           <command>nasal</command>
           <script>aircraft.livery.dialog.toggle()</script>
+        </binding>
+      </item>
+      <item>
+        <label>Reload guns</label>
+        <binding>
+          <command>nasal</command>
+          <script>guns.reload_guns();</script>
+        </binding>
+      </item>
+      <item>
+        <label>Unlimited guns</label>
+        <binding>
+          <command>nasal</command>
+          <script>guns.unlimited_guns();</script>
         </binding>
       </item>
       <item>
@@ -32,9 +53,8 @@
           <script>yak23.immat_dialog.toggle()</script>
         </binding>
       </item>
--->
+      -->
     </menu>
   </default>
 
 </PropertyList>
-

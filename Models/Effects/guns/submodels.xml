@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
+<!--
+  Nudelman-Rikhter NR-23
+
+  http://en.wikipedia.org/wiki/Nudelman-Rikhter_NR-23
+-->
 <PropertyList>
 
   <cannon>
-    <model>Models/Geometry/tracer.xml</model>
-    <speed>2755.9</speed>
-    <cd>0.193</cd>
-    <weight>0.286600941</weight>
-    <eda>0.00338158219</eda>
-    <!--<pitch-offset>0</pitch-offset>-->
-    <fuse-range>0</fuse-range>
-    <life>40</life>
+    <name>Nudelman-Rikhter NR-23</name>
+    <model>Aircraft/Yak-23/Models/Effects/guns/apibullet-tracer.xml</model>
     <trigger>controls/armament/trigger</trigger>
-    <expiry>true</expiry>
+    <speed>2264</speed>
     <repeat>true</repeat>
-    <delay>0.41</delay>
-    <count>33</count>
+    <delay>0.152</delay>
+    <count>800</count>
+    <yaw-offset>0</yaw-offset>
+    <pitch-offset>0.1</pitch-offset>
+    <life>40</life>
     <wind>false</wind>
+    <weight>0.13007235</weight>
+    <cd>0.193</cd>
+    <eda>0.00571198</eda>
+    <fuse-range>0</fuse-range>
     <collision>true</collision>
+    <collision-report>sim/ai/aircraft/collision/gun</collision-report>
+    <expiry>true</expiry>
     <impact>true</impact>
     <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
     <submodel-path>Aircraft/Yak-23/Models/Effects/guns/bullet-submodel.xml</submodel-path>
-    <impact-reports>sim/ai/aircraft/collision/cannon</impact-reports>
-    <pitch-offset>0.1</pitch-offset>
   </cannon>
 
   <submodel>
@@ -30,24 +36,26 @@
     <model alias="../../cannon/model"/>
     <trigger alias="../../cannon/trigger"/>
     <speed alias="../../cannon/speed"/>
-    <cd alias="../../cannon/cd"/>
-    <eda alias="../../cannon/eda"/>
-    <fuse-range alias="../../cannon/fuse-range"/>
-    <weight alias="../../cannon/weight"/>
-    <life alias="../../cannon/life"/>
     <repeat alias="../../cannon/repeat"/>
     <delay alias="../../cannon/delay"/>
     <count alias="../../cannon/count"/>
-    <wind alias="../../cannon/wind"/>
-    <expiry alias="../../cannon/expiry"/>
-    <collision alias="../../cannon/collision"/>
-    <impact alias="../../cannon/impact"/>
-    <submodel-path alias="../../cannon/submodel-path"/>
     <x-offset> 12.2389170 </x-offset> <!-- -3.73024 m = 12.2389170 ft -->
     <y-offset>  1.0642908 </y-offset> <!-- -0.32438 m =  1.0642908 ft -->
     <z-offset> -2.6529838 </z-offset> <!-- -0.80859 m = -2.6529838 ft -->
-    <yaw-offset>0</yaw-offset>
+    <yaw-offset alias="../../cannon/yaw-offset"/>
     <pitch-offset alias="../../cannon/pitch-offset"/>
+    <life alias="../../cannon/life"/>
+    <wind alias="../../cannon/wind"/>
+    <weight alias="../../cannon/weight"/>
+    <cd alias="../../cannon/cd"/>
+    <eda alias="../../cannon/eda"/>
+    <fuse-range alias="../../cannon/fuse-range"/>
+    <collision alias="../../cannon/collision"/>
+    <collision-report alias="../../cannon/collision-report"/>
+    <expiry alias="../../cannon/expiry"/>
+    <impact alias="../../cannon/impact"/>
+    <impact-report alias="../../cannon/impact-report"/>
+    <submodel-path alias="../../cannon/submodel-path"/>
   </submodel>
 
   <submodel>
@@ -55,24 +63,26 @@
     <model alias="../../cannon/model"/>
     <trigger alias="../../cannon/trigger"/>
     <speed alias="../../cannon/speed"/>
-    <cd alias="../../cannon/cd"/>
-    <eda alias="../../cannon/eda"/>
-    <fuse-range alias="../../cannon/fuse-range"/>
-    <weight alias="../../cannon/weight"/>
-    <life alias="../../cannon/life"/>
     <repeat alias="../../cannon/repeat"/>
     <delay alias="../../cannon/delay"/>
     <count alias="../../cannon/count"/>
-    <wind alias="../../cannon/wind"/>
-    <expiry alias="../../cannon/expiry"/>
-    <collision alias="../../cannon/collision"/>
-    <impact alias="../../cannon/impact"/>
-    <submodel-path alias="../../cannon/submodel-path"/>
     <x-offset> 12.2389170 </x-offset> <!-- -3.73024 m = 12.2389170 ft -->
     <y-offset> -1.0642908 </y-offset> <!--  0.32438 m = -1.0642908 ft -->
     <z-offset> -2.6529838 </z-offset> <!-- -0.80859 m = -2.6529838 ft -->
-    <yaw-offset>0</yaw-offset>
+     <yaw-offset alias="../../cannon/yaw-offset"/>
     <pitch-offset alias="../../cannon/pitch-offset"/>
-  </submodel>
+    <life alias="../../cannon/life"/>
+    <wind alias="../../cannon/wind"/>
+    <weight alias="../../cannon/weight"/>
+    <cd alias="../../cannon/cd"/>
+    <eda alias="../../cannon/eda"/>
+    <fuse-range alias="../../cannon/fuse-range"/>
+    <collision alias="../../cannon/collision"/>
+    <collision-report alias="../../cannon/collision-report"/>
+    <expiry alias="../../cannon/expiry"/>
+    <impact alias="../../cannon/impact"/>
+    <impact-report alias="../../cannon/impact-report"/>
+    <submodel-path alias="../../cannon/submodel-path"/>
+ </submodel>
 
 </PropertyList>

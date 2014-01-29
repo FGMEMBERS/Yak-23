@@ -5,6 +5,29 @@
   <fx>
 
     <engine>
+      <name>start</name>
+      <mode>once</mode>
+      <path>Aircraft/Yak-23/Sounds/starter.wav</path>
+      <condition>
+        <property>/controls/engines/engine/starter</property>
+      </condition>
+      <volume>
+        <property>engines/engine/n2</property>
+        <factor> 0.09 </factor>
+        <min> 0.3 </min>
+        <max> 0.9 </max>
+      </volume>
+      <pitch>
+        <property>engines/engine/n2</property>
+        <factor> 0.01 </factor>
+        <min> 0.0 </min>
+        <max> 0.9 </max>
+      </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </engine>
+
+    <engine>
       <name>engine</name>
       <path>Aircraft/Yak-23/Sounds/running.wav</path>
       <mode>looped</mode>

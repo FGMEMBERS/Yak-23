@@ -70,8 +70,8 @@
          taper="0.4"
          dihedral="2"
          sweep="3">
-         <stall aoa="16" width="1" peak="1.5"/>
-         <flap0 start="0.1" end="1" lift="1.6" drag="1.4"/>
+         <stall aoa="16" width="1" peak="1.4"/>
+         <flap0 start="0.1" end="1" lift="1.5" drag="1.2"/>
 
          <control-input axis="/controls/flight/elevator" square="false" control="FLAP0" />
          <control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
@@ -100,7 +100,7 @@
                  weight       :  580.7 kg ( 1280 lb )
                  power        : 3600 lbf
   -->
-  <jet x="2.5" y="0" z="-0.4720"
+  <jet x="2.8" y="0" z="-0.4720"
        mass="1280"
        thrust="3600"
        n1-idle="30"
@@ -159,12 +159,12 @@
   </gear>
 
   <!-- Internal tanks 186 Gallons US by wings -->
-  <tank x="0.77" y="-2.3" z="-0.37" jet="true" capacity="1250"/>
-  <tank x="0.77"  y="2.3" z="-0.37" jet="true" capacity="1250"/>
+  <tank x="0.8" y="-2.3" z="-0.37" jet="true" capacity="1250"/>
+  <tank x="0.8"  y="2.3" z="-0.37" jet="true" capacity="1250"/>
 
   <weight  x="-0.27" y="0" z="0.01" mass-prop="/yasim/yak23/pilot-lb"/>
   
   <!-- Mass displacment -->
-  <ballast x="3" y="0" z="-1.6" mass="600"/>
+  <ballast x="3" y="0" z="-1.6" mass="300"/>
 
 </airplane>

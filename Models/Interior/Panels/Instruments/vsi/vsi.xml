@@ -8,12 +8,7 @@
     <object-name>fond</object-name>
     <object-name>face</object-name>
     <object-name>needle</object-name>   
-   
-    <object-name>vitre</object-name>
-  </animation>
- 
-  <animation>
-    <type>noshadow</type>
+
     <object-name>vitre</object-name>
   </animation>
  
@@ -21,9 +16,21 @@
     <type>shader</type>
     <shader>chrome</shader>
     <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <condition>
+      <not><property>sim/rendering/rembrandt/enabled</property></not>
+    </condition>
     <object-name>vitre</object-name>
   </animation>
- 
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+    <object-name>vitre</object-name>
+  </effect>
+
   <animation>
     <type>material</type>
     <object-name>face</object-name>

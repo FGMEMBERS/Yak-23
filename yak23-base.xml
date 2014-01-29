@@ -41,7 +41,7 @@
         <int type="int" n="3">  0 </int>                                           <!--  3 immat -->
         <int type="int" n="4">  0 </int>                                           <!--  4 immat -->
         <int type="int" n="5">  0 </int>                                           <!--  5 immat -->
-        <int type="bool" n="6" alias="/sim/model/hide-tanks"> 0 </int>                  <!--  6 Tanks -->
+        <int type="bool" n="6" alias="/sim/model/hide-tanks"> 0 </int>             <!--  6 Tanks -->
         <int type="int" n="7" alias="smoke/particlepersec"> 50 </int>              <!--  7 particlepersec -->
         <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
         <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
@@ -77,11 +77,7 @@
   <engines>
     <engine n="0">
       <engine-num type="int">0</engine-num>
-      <running>true</running>
-    </engine>
-    <engine n="1">
-      <engine-num type="int">1</engine-num>
-      <running>true</running>
+      <running>false</running>
     </engine>
   </engines>
 
@@ -100,22 +96,19 @@
 
   <controls>
     <armament>
-     <trigger type="bool">false</trigger>
-     <master-arm type="bool">true</master-arm>
-     <position-norm type="int">1</position-norm>
+      <trigger type="bool">false</trigger>
+      <master-arm type="bool">true</master-arm>
+      <position-norm type="int">1</position-norm>
     </armament>
+    <gear>
+      <brake-parking>1</brake-parking>
+    </gear>
   </controls>
 
   <input>
     <keyboard include="Systems/yak23-keyboard.xml"/>
   </input>
  
-  <controls>
-    <gear>
-      <brake-parking>1</brake-parking>
-    </gear>
-  </controls>
-  
   <nasal>
     <doors>
       <file>Aircraft/Yak-23/Nasal/doors.nas</file>
@@ -130,6 +123,7 @@
     </guns>
     <engines>
       <file>Aircraft/Generic/Engines/generic-yasim-engine.nas</file>
+      <file>Aircraft/Yak-23/Nasal/engines-yasim.nas</file>
     </engines>
   </nasal>
 

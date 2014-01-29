@@ -1,3 +1,3 @@
-aircraft.livery.init("Aircraft/ME-262/Models/Liveries");
+aircraft.livery.init("Aircraft/Yak-23/Models/Liveries");
 
 

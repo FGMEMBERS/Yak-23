@@ -132,4 +132,14 @@
     </offsets>
   </model>
 
+  <!-- THROTTLE -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/throttle/throttle.xml</path>
+    <offsets>
+      <x-m>  0.22 </x-m>
+      <y-m> -0.37 </y-m>
+      <z-m> -0.16 </z-m>
+    </offsets>
+  </model>
+
 </PropertyList>

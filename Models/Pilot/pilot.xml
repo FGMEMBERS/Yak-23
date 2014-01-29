@@ -110,12 +110,12 @@
     <interpolation>
       <entry><ind> 0.0 </ind><dep>  0 </dep></entry>
       <entry><ind> 0.5 </ind><dep> 20 </dep></entry>
-      <entry><ind> 1.0 </ind><dep> 40 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> 30 </dep></entry>
     </interpolation>
     <center>
-      <x-m>  0.055 </x-m>
-      <y-m> -0.111 </y-m>
-      <z-m>  0.248 </z-m>
+      <x-m>  0.04841 </x-m>
+      <y-m> -0.21799 </y-m>
+      <z-m>  0.28939 </z-m>
     </center>
     <axis>
       <x> 0 </x>
@@ -136,13 +136,13 @@
     <property>/controls/engines/engine/throttle</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep>   0 </dep></entry>
-      <entry><ind> 0.5 </ind><dep> -10 </dep></entry>
-      <entry><ind> 1.0 </ind><dep> -30 </dep></entry>
+      <entry><ind> 0.5 </ind><dep> -20 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> -40 </dep></entry>
     </interpolation>
     <center>
-      <x-m>  0.148 </x-m>
-      <y-m> -0.319 </y-m>
-      <z-m>  0.033 </z-m>
+      <x-m> -0.00576 </x-m>
+      <y-m> -0.33230 </y-m>
+      <z-m>  0.06293 </z-m>
     </center>
     <axis>
       <x> 0 </x>
@@ -152,4 +152,3 @@
   </animation> 
 
 </PropertyList>
-
