@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- ADF -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/ADF/adf.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.170 </y-m>
+      <z-m>  0.115 </z-m>
+    </offsets>
+  </model>
+
+  <!-- N1 -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/n1/n1.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.086 </y-m>
+      <z-m>  0.115 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.055 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.086 </y-m>
+      <z-m> 0.115 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ASI METRIC -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/asi-metric/asi-metric.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.170 </y-m>
+      <z-m> 0.115 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/rpm/rpm.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.170 </y-m>
+      <z-m> -0.015 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT METRIC -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/alt-metric/alt-metric.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.086 </y-m>
+      <z-m> -0.015 </z-m>
+    </offsets>
+  </model>
+
+  <!-- HI -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/hi/hi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.067 </z-m>
+    </offsets>
+  </model>
+
+  <!-- EGT -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/egt/egt.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.086 </y-m>
+      <z-m> -0.015 </z-m>
+    </offsets>
+  </model>
+
+  <!-- FLAPS -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/flaps/flaps.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.170 </y-m>
+      <z-m> -0.015 </z-m>
+    </offsets>
+  </model>
+
+  <!-- REVI -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/revi/revi.xml</path>
+    <offsets>
+      <x-m> -0.030 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.249 </z-m>
+    </offsets>
+  </model>
+
+  <!-- LANDING LIGHT -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/buttons/land-light.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.300 </y-m>
+      <z-m> -0.066 </z-m>
+      <pitch-deg> -20 </pitch-deg>
+    </offsets>
+  </model>
+
+  <!-- THROTTLE -->
+  <model>
+    <path>Aircraft/Yak-23/Models/Interior/Panels/Instruments/throttle/throttle.xml</path>
+    <offsets>
+      <x-m>  0.22 </x-m>
+      <y-m> -0.37 </y-m>
+      <z-m> -0.16 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
