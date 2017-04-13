@@ -9,6 +9,19 @@
     <flight-model>yasim</flight-model>
     <aero>yak23-yasim</aero>
 
+    <tags>
+      <tag>yakovlev</tag>
+      <tag>mid-wing</tag>
+      <tag>tricycle</tag>
+      <tag>retractable-gear</tag>
+      <tag>single-engine</tag>
+      <tag>jet</tag>
+      <tag>ifr</tag>
+      <tag>fighter</tag>
+      <tag>1950s</tag>
+      <tag>1960s</tag>
+    </tags>
+
     <rating>
       <FDM type="int">     0 </FDM>
       <systems type="int"> 0 </systems>
